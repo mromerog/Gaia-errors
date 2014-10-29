@@ -24,6 +24,10 @@ Fortran compile gfortran
 - Auxialliary routines
    * Compute gaussian dispersion as in Numerical Recipes (gaussdev.f)
 
+- Auxilliary constant files
+   * const_math.h: mathematical constants
+   * const_ast.h astronomical constants
+
 
 Quick Guide
 -----------

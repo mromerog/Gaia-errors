@@ -13,13 +13,15 @@ as specified in the Gaia Science Performance webpapage
 Fortran compile gfortran
 
 **FILES PROVIDED**
+
 - Documentation
    * README.rst
+
 - Tables
-   * gfactor-Jun2013.dat: geometrical factors to be applied in the error in parallax
-as of June 2013
-   * TableVr-Oct2014.dat: coefficients of the exponential fit of the error in radial velocity as of Octiber 2014
-- Auxialiary routines
+   * gfactor-Jun2013.dat: geometrical factors to be applied in the error in parallax as of June 2013
+   * TableVr-Oct2014.dat: coefficients of the exponential fit of the error in radial velocity as of October 2014
+
+- Auxialliary routines
    * Compute gaussian dispersion as in Numerical Recipes (gaussdev.f)
 
 

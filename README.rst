@@ -43,8 +43,8 @@ The output is the errors in astrometry, photometry and atmospherical parameters,
 Attribution
 -----------
 
-This code is provided by Merce Romero-Gomez - merce.romero at ub.edu, and Josep Manel
-Carrasco (UB). The new fit to the parallax error after commissioning have been provided by Rygl, Antoja, DeBruijne et al (2014). The rest of the astrometric errors follow the prescription as in the Gaia Science Performance Webpage (http://www.cosmos.esa.int/web/gaia/science-performance). The atmospheric parameters are implemented using the
+This code is provided by Merce Romero-Gomez - merce.romero at ub.edu, Josep Manel
+Carrasco and Roger Mor (UB). The new fit to the parallax error after commissioning have been provided by Rygl, Antoja, DeBruijne et al (2014). The rest of the astrometric errors follow the prescription as in the Gaia Science Performance Webpage (http://www.cosmos.esa.int/web/gaia/science-performance). The atmospheric parameters are implemented using the
 values as in Liu & Bailer-Jones (2012). The radial velocity error profile follows the same shape as in the Science Performance webpage and the new fit for the coefficients is
 attributed to M.Romero-Gomez, Oct. 2014.
 

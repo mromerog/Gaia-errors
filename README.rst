@@ -4,7 +4,7 @@ Gaia-errors Package
 **DESCRIPTION:**
 
 Gaia-errors is a Fortran toolkit to apply the Gaia errors to simulated data, 
-as specified in the Gaia Science Performance webpapage 
+as specified in the Gaia Science Performance webpage 
 
 
 
@@ -32,7 +32,13 @@ Fortran compile gfortran
 Quick Guide
 -----------
 
-Given your data in equatorial coordinates (alpha, delta, pi, mu_alpha, mu_delta, Vr), and fixed a population (V,V-I) it returns the errors in astrometry, photometry and atmospherical parameters, and the data affected by errors.
+The input data is:
+- month and CAfactor, the length of operational data released in months and the Calibration Astrometric factor to be applied to the astrometric errors, respectively.
+- your data in equatorial coordinates (alpha, delta, pi, mu_alpha, mu_delta, Vr)
+- a fixed population (V,V-I) 
+- a flag regarding the type of errors to be applied (mean end-of-mission or applying geometrical factors and the number of transits)
+
+The output is the errors in astrometry, photometry and atmospherical parameters, and the data affected by errors.
 
 Attribution
 -----------

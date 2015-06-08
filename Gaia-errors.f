@@ -40,9 +40,8 @@ c     CAfactor=1.2 means Astrometric errors are increased in 20%.
 
 c   * External tables:
 c     ----------------
-c	'gfactor-Oct2012.dat': geometrical factors (Table 2 of the web)
 c	'gfactor-Jun2013.dat': geometrical factors (Table 6 of the web)
-c 	'TableVr-Oct2014.dat': Radial Velocity coefficients
+c 	'TableVr-Jun2015.dat': Radial Velocity coefficients
 
 c	Input files for the definition of constants: 
 c   		const_math.h : mathematical constants
@@ -173,7 +172,7 @@ c also the mean number. Then it applies the same formula as above)
 c Exponential fit from the Spectroscopic Performace Table provided in the Gaia Science 
 c Performance webpage. 
 
-       open(3,file='TableVr-Oct2014.dat')
+       open(3,file='TableVr-Jun2015.dat')
             read(3,*)
             do i=1,11
               read(3,*)xvi(i),xavr(i),xbvr(i)

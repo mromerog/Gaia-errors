@@ -139,7 +139,7 @@ c **********************************************************************
         dimension xvi(11),xavr(11),xbvr(11)
         dimension xsb(20),xNOBS(20),xga(20),xgd(20),xgpi(20),xgmua(20),
      &            xgmud(20)
-        Double precision gasdev, jflag, month, factorL, VI, Xfactormua
+        Double precision gasdev, month, factorL, VI, Xfactormua
 	Double precision Xfactormud, L, CAfactor
         character*10 xchar
         logical ifirst
@@ -420,7 +420,7 @@ c
       call lininter(11,xvi,xavr,vi,avr)
       call lininter(11,xvi,xbvr,vi,bvr)
 
-      sigVr=(1.d0+bvr*exp(avr*(V-14)))
+      sigVr=1.d0+bvr*exp(avr*(V-12.7d0))
       return
       end
 
